@@ -1,7 +1,7 @@
+import 'package:Likabout/web_page.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
-import 'package:likaboutapp/web_page.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

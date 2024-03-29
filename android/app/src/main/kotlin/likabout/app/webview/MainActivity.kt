@@ -1,4 +1,4 @@
-package com.example.likeabout
+package likabout.app.webview
 
 import io.flutter.embedding.android.FlutterActivity
 
