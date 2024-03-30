@@ -8,6 +8,7 @@ import 'package:flutter_pdfview/flutter_pdfview.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:flutter/services.dart';
+import 'package:restart_app/restart_app.dart';
 
 class MyWidget extends StatefulWidget {
   MyWidget();
@@ -177,9 +178,7 @@ class _MyWidgetState extends State<MyWidget> {
               padding: const EdgeInsets.all(8.0),
               child: ElevatedButton(
                   onPressed: () {
-                    if (webViewController != null) {
-                      webViewController!.reload();
-                    }
+                    Restart.restartApp();
                   },
                   child: Text("Refresh")),
             )
